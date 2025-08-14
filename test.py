@@ -5,8 +5,8 @@ from rtf3 import *
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
-Rotation3().draw_pyplot(ax, size=3)
-r = Rotation3.from_euler_zyx_deg(0, 0, 0)
+Rotation().draw_pyplot(ax, size=3)
+r = Rotation.from_euler_zyx_deg(0, 0, 45)
 r.draw_pyplot(ax, size=2)
 
 # Set axes limits
